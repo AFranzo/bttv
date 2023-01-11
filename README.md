@@ -85,6 +85,7 @@ Docker
          -v $(pwd)/dist:/usr/build/dist \
          -v $(pwd)/patches:/usr/build/patches \
          -v $(pwd)/mod:/usr/build/mod \
+         -v $(pwd)/bttv.manifest.json:/usr/build/bttv.manifest.json \
          -v $(pwd)/.all-contributorsrc:/usr/build/.all-contributorsrc \
          ghcr.io/bttv-android/builder
       ```
