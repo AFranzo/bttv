@@ -1,5 +1,10 @@
 # Changelog
 
+# 0.37.0-beta
+- rebase to v14.7.0
+- fix ffz badges
+- "View Info" used to open the SubscribeRedirect flow, fixed that
+
 # 0.36.0-beta
 - rebase to v14.5.2
 - fix login issues
