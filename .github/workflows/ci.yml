@@ -18,12 +18,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # checkout current state of repo
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       # set env variables
       - name: set variables
         run: |
-          echo "APK_URL=https://www.dropbox.com/s/wtd1vf7k3p5xc14/twitch-14.9.5.apk\?\dl=1" >> $GITHUB_ENV
+          echo "APK_URL=https://www.dropbox.com/s/n5zyrpy34al39m3/twitch-15.0.0.apk\?\dl=1" >> $GITHUB_ENV
 
       # get keystore.kjs from secret
       - name: create keystore.kjs from secret
