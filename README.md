@@ -45,7 +45,7 @@ A mod of the Twitch Android Mobile<sup><a href="#no-tv">1</a></sup> App adding B
 
 # Build it yourself
 
-> This patch is meant to be applied to version **15.0.0** of the official twitch app
+> This patch is meant to be applied to version **15.4.1** of the official twitch app
 > Make sure you use this version before you create an issue!
 
 ## Easy way: Docker
@@ -129,7 +129,7 @@ Made with ♥️ by [@FoseFx](https://github.com/FoseFx) and contributors. MIT L
 [license-badge]: https://img.shields.io/github/license/bttv-android/bttv?style=flat-square
 [license-file]: ./LICENSE
 [bttv-version]: https://img.shields.io/github/v/release/bttv-android/bttv?style=flat-square
-[base-version]: https://img.shields.io/badge/build%20on-v15.0.0-blueviolet?style=flat-square
+[base-version]: https://img.shields.io/badge/build%20on-v15.4.1-blueviolet?style=flat-square
 [downloads-latest]: https://img.shields.io/github/downloads/bttv-android/bttv/latest/total?color=yellow&style=flat-square
 [downloads-total]: https://img.shields.io/github/downloads/bttv-android/bttv/total?color=yellowgreen&label=downloads%20total&style=flat-square
 [latest-release]: https://github.com/bttv-android/bttv/releases/latest
@@ -226,6 +226,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Benderosy"><img src="https://avatars.githubusercontent.com/u/126038064?v=4?s=100" width="100px;" alt="Benderosy"/><br /><sub><b>Benderosy</b></sub></a><br /><a href="https://github.com/bttv-android/bttv/issues?q=author%3ABenderosy" title="Bug reports">🐛</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/LtHusky1218"><img src="https://avatars.githubusercontent.com/u/126059193?v=4?s=100" width="100px;" alt="LtHusky1218"/><br /><sub><b>LtHusky1218</b></sub></a><br /><a href="https://github.com/bttv-android/bttv/issues?q=author%3ALtHusky1218" title="Bug reports">🐛</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/abraxas86"><img src="https://avatars.githubusercontent.com/u/8891358?v=4?s=100" width="100px;" alt="abraxas86"/><br /><sub><b>abraxas86</b></sub></a><br /><a href="https://github.com/bttv-android/bttv/issues?q=author%3Aabraxas86" title="Bug reports">🐛</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Vikings09876"><img src="https://avatars.githubusercontent.com/u/11668494?v=4?s=100" width="100px;" alt="Ataraxia"/><br /><sub><b>Ataraxia</b></sub></a><br /><a href="https://github.com/bttv-android/bttv/issues?q=author%3AVikings09876" title="Bug reports">🐛</a></td>
     </tr>
   </tbody>
 </table>
