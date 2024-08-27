@@ -347,15 +347,6 @@
       ]
     },
     {
-      "login": "mirronake",
-      "name": "mirronake",
-      "avatar_url": "https://avatars.githubusercontent.com/u/96698262?v=4",
-      "profile": "https://github.com/mirronake",
-      "contributions": [
-        "translation"
-      ]
-    },
-    {
       "login": "mariusandersen",
       "name": "Marius Andersen",
       "avatar_url": "https://avatars.githubusercontent.com/u/3061094?v=4",
@@ -506,6 +497,24 @@
       "profile": "https://github.com/ecan18",
       "contributions": [
         "bug"
+      ]
+    },
+    {
+      "login": "Alucard-xi",
+      "name": "Alucard",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98977509?v=4",
+      "profile": "https://github.com/Alucard-xi",
+      "contributions": [
+        "translation"
+      ]
+    },
+    {
+      "login": "Zerwin",
+      "name": "Zerwin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46265592?v=4",
+      "profile": "https://github.com/Zerwin",
+      "contributions": [
+        "code"
       ]
     }
   ],

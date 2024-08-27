@@ -1,6 +1,6 @@
-diff --git a/smali_classes7/tv/twitch/android/util/EmoteUrlUtil.smali b/smali_classes7/tv/twitch/android/util/EmoteUrlUtil.smali
---- a/smali_classes7/tv/twitch/android/util/EmoteUrlUtil.smali
-+++ b/smali_classes7/tv/twitch/android/util/EmoteUrlUtil.smali
+diff --git a/smali_classes8/tv/twitch/android/util/EmoteUrlUtil.smali b/smali_classes8/tv/twitch/android/util/EmoteUrlUtil.smali
+--- a/smali_classes8/tv/twitch/android/util/EmoteUrlUtil.smali
++++ b/smali_classes8/tv/twitch/android/util/EmoteUrlUtil.smali
 @@ -627,6 +627,15 @@
  .method public static final generateEmoteUrl(Ljava/lang/String;F)Ljava/lang/String;
      .locals 2
@@ -17,18 +17,9 @@ diff --git a/smali_classes7/tv/twitch/android/util/EmoteUrlUtil.smali b/smali_cl
      const-string v0, "id"
  
      invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
-@@ -703,7 +712,7 @@
- .end method
+@@ -715,6 +724,14 @@
  
- .method public static final getEmoteUrl(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
--    .locals 1
-+    .locals 2
- 
-     const-string v0, "context"
- 
-@@ -713,6 +722,14 @@
- 
-     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+     if-eqz p2, :cond_0
  
 +    # BTTV
 +    invoke-static {p1}, Lbttv/emote/EmoteUrlUtil;->getEmoteUrl(Ljava/lang/String;)Ljava/lang/String;
@@ -38,6 +29,6 @@ diff --git a/smali_classes7/tv/twitch/android/util/EmoteUrlUtil.smali b/smali_cl
 +    :dont_return
 +    # /BTTV
 +
-     .line 73
-     sget-object v0, Ltv/twitch/android/util/EmoteUrlUtil;->INSTANCE:Ltv/twitch/android/util/EmoteUrlUtil;
+     .line 74
+     invoke-virtual {p2}, Ljava/lang/Float;->floatValue()F
  
